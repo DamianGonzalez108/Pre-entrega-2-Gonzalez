@@ -1,0 +1,268 @@
+/*
+font-family: 'Lalezar', cursive;
+font-family: 'Quicksand', sans-serif;
+*/ 
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration:none;
+    list-style-type:none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+}
+
+
+/*BOOTSTRAP*/
+/* HEADER*/
+.navbar-mio{
+    background-color: #97DEFF;
+    padding:0;
+    border-bottom:2px solid #4d718161;
+}
+.titulo-inicio{
+    color: white;
+    font-size: 56px;
+    margin-right: 10px;
+    text-decoration:none;
+    font-weight: 600;
+}
+.links-nav ul li a{
+    font-size: 20px;
+}
+/*MAIN*/
+.main-index {
+    margin-top: 85px;
+    padding: 50px;
+    background-image:url(../imagenes/FondoIndexx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.titulo-index{
+    font-family: 'Lalezar', cursive;
+    margin-bottom: 200px;
+    font-size: 190px;
+    color: rgba(255, 255, 255, 0.575);
+    padding: 25px;
+}
+
+.boton-donar{
+    background-color:  #97deff33;
+    border-color: #97deff33;
+}
+.boton-donar:hover{
+    color: white;
+    border-color: #97DEFF;   
+    background-color:  #97DEFF;
+}
+.frase-inicio{
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: transparent;
+    text-align: center;
+
+}
+/* DIV INTRODUCCION */
+.carta-intro,.carta-img{
+    margin-top: 60px;
+    background-color:  #97deffbe;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    
+}
+.header-intro{
+    background-color: transparent;
+}
+.carta-intro:hover,.carta-img:hover{
+    margin-top: 60px;
+    background-color: #97deff;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+   
+}
+.row-introduccion{
+    margin-bottom: 50px;
+
+}
+/*EQUIPO-LOGROS*/
+.row-mio{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.div-logros,.div-equipo{
+ margin-top: 120px;
+}
+.titulo-equipo-index, .titulo-logros-index{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    border:solid 4px #97DEFF;
+    font-family: 'Lalezar', cursive;
+}
+.card-mio{
+    margin-top: 23px;
+}
+.tarjetas-mio{
+    background-color: #97DEFF;
+    color: white;
+    height: 150px;
+}
+
+/*FOOTER*/
+footer{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #97DEFF;
+    color: white;
+    font-size: 20px;
+}
+footer a{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.links-footer{
+    margin-top: 40px;
+}
+.links-redes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.links-complementarios{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.iframe-mapa{
+    margin-top: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+/*INFORMACION*/
+.div-info, .iframe-info{
+    margin-top: 130px;
+}
+.texto-info{
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #97DEFF;
+}
+.div-botones{
+    margin-bottom: 15px;
+    margin-top: 130px;
+    border: solid 2px #4d718161;
+    background-color: #97deff86;
+}
+.header-info{
+    background-color:transparent;
+    font-size: 40px;
+}
+.botones-info{
+    background-color: #97deffbe;
+    border-color: #4d718161;
+    color: white;
+    font-size: 20px;
+}
+.botones-info:hover{
+    background-color: #97DEFF;
+    border-color: #4d718161;
+    color: white;
+    font-size: 20px;
+}
+.texto-carta{
+    background-color: #97deffbe;
+    color: white;
+    font-size: 20px;
+}
+.card-iframe{
+    margin: 120px;
+    background-color: #97DEFF;
+}
+.div-iframe-info{
+    padding: 20px;
+    margin: 0;
+    color: white;
+}
+/*EQUIPO*/
+.row-equipo{
+    margin: 0;
+    padding:0px;
+}
+.card-equipo{
+    margin: 130px 25px 40px 25px;
+    border-color: #4d718161;
+}
+.cartas-equipo{
+    background-color:  #97deff70;
+    border-color: #4d718161;
+    color: white;
+    padding: 0;
+    margin-top: 35px;
+    height: 450px;
+}
+.cartas-equipo:hover{
+    background-color: #97deff;
+    border-color: #4d718161;
+    color: white;
+    padding: 0;
+    margin-top: 35px;
+    height: 450px;
+}
+/*LOGROS*/
+.titulo-logros{
+    margin: 130px 25px 40px 20px;
+    background-color: #97DEFF;
+    color: white;
+    font-size: 20px;
+}
+.iframe-logros{
+    padding: 10px;
+}
+.cartas-logros{
+    margin:40px 20px;
+    background-color: #97DEFF;
+    color: white;
+    font-size: 20px;
+}
+/*CONTACTO*/
+.carta-form{
+    margin: 130px 100px 40px 100px;
+    background-color: #97DEFF;
+    color: white;
+}
+.boton-form{
+    background-color:  #97deff70;
+    color: white;
+    border-color: #4d718161;
+}
+.boton-form:hover{
+    background-color:white;
+    color:#97deff;
+    border-color: #4d718161;
+}
+/*MEDIA QUERIES*/
+@media (min-width:400px) and (max-width:1000px){
+    .titulo-index{
+        font-size: 100px;
+    }
+    .mapa-refencias{
+        display: none;
+    }
+    .card-iframe{
+        margin: 40px;
+    }
+    .main-index{
+        height: 660px;
+    }
+    .img-nav{
+        display: none;
+    }
+}
+
