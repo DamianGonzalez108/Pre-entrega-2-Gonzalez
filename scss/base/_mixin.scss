@@ -2,16 +2,8 @@
     margin-top: $mrg;
     padding: $pd;
 }
-@mixin main-index($bg-img,$no-rpt,$cvr,$cntr){
-    background-image:$bg-img;
-    background-repeat: $no-rpt;
-    background-size: $cvr;
-    background-position: $cntr;
-}
-
 .main-index{
     @include espaciado(85px,50px );
-    @include main-index("/imagenes/fondoindexx.webp",no-repeat,cover,center );
 }
 
 .carta-intro,.carta-img{

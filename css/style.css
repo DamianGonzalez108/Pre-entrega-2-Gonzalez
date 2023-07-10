@@ -51,10 +51,6 @@
 .main-index {
   margin-top: 85px;
   padding: 50px;
-  background-image: "/imagenes/fondoindexx.webp";
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .carta-intro, .carta-img {
@@ -86,6 +82,13 @@
 
 .links-nav {
   font-size: 20px;
+}
+
+.main-index {
+  background-image: url("../../imagenes/fondoindexx.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .titulo-index {
