@@ -1,0 +1,12 @@
+@mixin espaciado($mrg,$pd){
+    margin-top: $mrg;
+    padding: $pd;
+}
+
+.main-index{
+    @include espaciado(85px,50px );
+}
+
+.carta-intro,.carta-img{
+    @include espaciado(60px,15px );
+}

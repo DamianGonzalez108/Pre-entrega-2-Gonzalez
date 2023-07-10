@@ -1,0 +1,10 @@
+.boton-form{
+    background-color:  #97deff70;
+    color: $color-letra;
+    border-color:$color-secundario;
+            &:hover{
+                background-color:white;
+                color:$color-letra;
+                border-color: $color-secundario;
+            }
+}

@@ -1,0 +1,52 @@
+.div-info{
+    margin-top: map-get($pg-info, mrg-l);
+}
+.iframe-info{
+    margin-top: 50px;
+}
+.texto-info{
+    padding: $px-size;
+    font-size:map-get($pg-info,font-s );
+    color: $color-letra;
+    background-color:$color-principal;
+}
+.div-botones{
+    margin-bottom: map-get($pg-info,mrg-s );
+    margin-top: map-get($pg-info, mrg-l);
+    border: map-get($pg-info, brd );
+    background-color:map-get($pg-info, bg-clr );
+}
+.header-info{
+    background-color:$trnspnt;
+    font-size:map-get($pg-info, font-m );
+}
+.botones-info{
+    background-color:$bg-clr2;
+    border-color: $color-secundario;
+    color: $color-letra;
+    font-size:$px-size;
+}
+.botones-info:hover{
+    background-color:$color-principal;
+    border-color: $color-secundario;
+    color: $color-letra;
+    font-size: $px-size;
+}
+.texto-carta{
+    background-color:$bg-clr2;
+    color: $color-letra;
+    font-size: $px-size;
+}
+.card-iframe{
+    margin: map-get($pg-info, mrg-m);
+    background-color:$color-principal;
+    div{
+        .div-iframe-info{
+            padding: $px-size;
+            color: $color-letra;
+            p{
+                font-size:$px-size;
+            }
+        }
+    }
+}

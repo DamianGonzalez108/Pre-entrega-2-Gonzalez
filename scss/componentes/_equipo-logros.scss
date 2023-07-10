@@ -1,0 +1,33 @@
+.row-mio{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.div-logros,.div-equipo{
+ margin-top: 120px;
+}
+.titulo-equipo-index, .titulo-logros-index{   
+    margin-bottom: $px-size;
+    border:solid 4px $color-principal;
+    background: rgb(151,222,255);
+    background: -webkit-linear-gradient(90deg, rgba(151,222,255,0) 50%, rgba(151,222,255,1) 100%);
+    background: linear-gradient(90deg, rgba(151,222,255,0) 50%, rgba(151,222,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#97deff",endColorstr="#97deff",GradientType=1);
+    background: -moz-linear-gradient(90deg, rgba(151,222,255,0) 50%, rgba(151,222,255,1) 100%);
+    h3{         
+        font-size: 30px;
+        font-weight: 600;
+        font-family:$font-secundario;
+}
+}
+.card-mio{
+    margin-top: $px-size;
+}
+.tarjetas-mio{
+    background-color:$color-principal;
+    height: 150px;
+    h5{
+        color: $color-letra;
+        font-family: $font-secundario;
+    }
+
+}

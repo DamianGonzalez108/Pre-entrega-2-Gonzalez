@@ -1,0 +1,12 @@
+.row-equipo{
+    margin: 0px;
+}
+.card-equipo{
+    margin: 130px 25px 40px 25px;
+    border-color: $color-secundario;
+    background: rgb(151,222,255);
+    background: -moz-radial-gradient(circle, rgba(151,222,255,0) 50%, rgba(151,222,255,1) 90%);
+    background: -webkit-radial-gradient(circle, rgba(151,222,255,0) 50%, rgba(151,222,255,1) 90%);
+    background: radial-gradient(circle, rgba(151,222,255,0) 50%, rgba(151,222,255,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#97deff",endColorstr="#97deff",GradientType=1);
+}

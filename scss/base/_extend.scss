@@ -1,0 +1,58 @@
+%carta-intro-img{
+        background-color: $bg-clr2;
+        font-size: $px-size;
+        color:$color-letra;
+                        &:hover{
+                            background-color:$color-principal;
+                            font-size: $px-size;
+                            color:$color-letra;
+                            padding: $pddng-s;
+                            transform: $trf;
+                            transition: $trs ;
+                        }
+}
+%clr-bg{
+    background-color: #97DEFF;
+    color: black;
+}
+
+.carta-intro{
+    @extend %carta-intro-img;
+}
+.carta-img{
+    @extend %carta-intro-img;
+                .txt-fundadora{
+                    padding: 20px;
+                }
+
+}
+
+.cartas-equipo{
+    background-color:  #97deff70;
+    border-color: $color-secundario;
+    color: $color-letra;
+    margin-top: 35px;
+    height: 450px;
+                &:hover{
+                    @extend %clr-bg;
+                    border-color: #4d718161;
+                    margin-top: 35px;
+                    height: 450px;
+                }
+                }
+
+.titulo-logros{
+    margin: 130px 25px 40px 20px;
+    @extend %clr-bg;
+    font-size: $px-size;
+}
+.cartas-logros{
+    margin:40px 20px;
+    @extend %clr-bg;
+    font-size: $px-size; 
+}
+
+.carta-form{
+    margin: 130px 100px 40px 100px;
+    @extend %clr-bg;
+}

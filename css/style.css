@@ -1,268 +1,318 @@
-/*
-font-family: 'Lalezar', cursive;
-font-family: 'Quicksand', sans-serif;
-*/ 
-*{
-    margin: 0px;
-    padding: 0px;
-    text-decoration:none;
-    list-style-type:none;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 200;
+.carta-img, .carta-intro {
+  background-color: rgba(151, 222, 255, 0.7450980392);
+  font-size: 20px;
+  color: black;
+}
+.carta-img:hover, .carta-intro:hover {
+  background-color: #97DEFF;
+  font-size: 20px;
+  color: black;
+  padding: 15px;
+  transform: scale(1.1);
+  transition: all 1.8s;
 }
 
+.carta-form, .cartas-logros, .titulo-logros, .cartas-equipo:hover {
+  background-color: #97DEFF;
+  color: black;
+}
 
-/*BOOTSTRAP*/
-/* HEADER*/
-.navbar-mio{
-    background-color: #97DEFF;
-    padding:0;
-    border-bottom:2px solid #4d718161;
+.carta-img .txt-fundadora {
+  padding: 20px;
 }
-.titulo-inicio{
-    color: white;
-    font-size: 56px;
-    margin-right: 10px;
-    text-decoration:none;
-    font-weight: 600;
+
+.cartas-equipo {
+  background-color: rgba(151, 222, 255, 0.4392156863);
+  border-color: rgba(77, 113, 129, 0.3803921569);
+  color: black;
+  margin-top: 35px;
+  height: 450px;
 }
-.links-nav ul li a{
-    font-size: 20px;
+.cartas-equipo:hover {
+  border-color: rgba(77, 113, 129, 0.3803921569);
+  margin-top: 35px;
+  height: 450px;
 }
-/*MAIN*/
+
+.titulo-logros {
+  margin: 130px 25px 40px 20px;
+  font-size: 20px;
+}
+
+.cartas-logros {
+  margin: 40px 20px;
+  font-size: 20px;
+}
+
+.carta-form {
+  margin: 130px 100px 40px 100px;
+}
+
 .main-index {
-    margin-top: 85px;
-    padding: 50px;
-    background-image:url(../imagenes/FondoIndexx.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.titulo-index{
-    font-family: 'Lalezar', cursive;
-    margin-bottom: 200px;
-    font-size: 190px;
-    color: rgba(255, 255, 255, 0.575);
-    padding: 25px;
+  margin-top: 85px;
+  padding: 50px;
 }
 
-.boton-donar{
-    background-color:  #97deff33;
-    border-color: #97deff33;
-}
-.boton-donar:hover{
-    color: white;
-    border-color: #97DEFF;   
-    background-color:  #97DEFF;
-}
-.frase-inicio{
-    color: white;
-    margin-top: 20px;
-    font-size: 18px;
-    background-color: transparent;
-    text-align: center;
-
-}
-/* DIV INTRODUCCION */
-.carta-intro,.carta-img{
-    margin-top: 60px;
-    background-color:  #97deffbe;
-    font-size: 20px;
-    color: white;
-    padding: 15px;
-    
-}
-.header-intro{
-    background-color: transparent;
-}
-.carta-intro:hover,.carta-img:hover{
-    margin-top: 60px;
-    background-color: #97deff;
-    font-size: 20px;
-    color: white;
-    padding: 15px;
-   
-}
-.row-introduccion{
-    margin-bottom: 50px;
-
-}
-/*EQUIPO-LOGROS*/
-.row-mio{
-    margin-top: 30px;
-    margin-bottom: 80px;
-}
-.div-logros,.div-equipo{
- margin-top: 120px;
-}
-.titulo-equipo-index, .titulo-logros-index{
-    margin-bottom: 20px;
-    font-size: 25px;
-    font-weight: 600;
-    border:solid 4px #97DEFF;
-    font-family: 'Lalezar', cursive;
-}
-.card-mio{
-    margin-top: 23px;
-}
-.tarjetas-mio{
-    background-color: #97DEFF;
-    color: white;
-    height: 150px;
+.carta-intro, .carta-img {
+  margin-top: 60px;
+  padding: 15px;
 }
 
-/*FOOTER*/
-footer{
-    font-family: 'Quicksand', sans-serif;
-    background-color: #97DEFF;
-    color: white;
-    font-size: 20px;
+* {
+  font-family: "Quicksand", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
-footer a{
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
-}
-.links-footer{
-    margin-top: 40px;
-}
-.links-redes{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 150px;
-}
-.links-complementarios{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 17px;
-    margin-left: 200px;
-    margin-bottom: 10px;
-}
-.iframe-mapa{
-    margin-top: 35px;
-    display: flex;
-    justify-content: flex-end;
-}
-/*INFORMACION*/
-.div-info, .iframe-info{
-    margin-top: 130px;
-}
-.texto-info{
-    padding: 20px;
-    font-size: 18px;
-    color: white;
-    background-color: #97DEFF;
-}
-.div-botones{
-    margin-bottom: 15px;
-    margin-top: 130px;
-    border: solid 2px #4d718161;
-    background-color: #97deff86;
-}
-.header-info{
-    background-color:transparent;
-    font-size: 40px;
-}
-.botones-info{
-    background-color: #97deffbe;
-    border-color: #4d718161;
-    color: white;
-    font-size: 20px;
-}
-.botones-info:hover{
-    background-color: #97DEFF;
-    border-color: #4d718161;
-    color: white;
-    font-size: 20px;
-}
-.texto-carta{
-    background-color: #97deffbe;
-    color: white;
-    font-size: 20px;
-}
-.card-iframe{
-    margin: 120px;
-    background-color: #97DEFF;
-}
-.div-iframe-info{
-    padding: 20px;
-    margin: 0;
-    color: white;
-}
-/*EQUIPO*/
-.row-equipo{
-    margin: 0;
-    padding:0px;
-}
-.card-equipo{
-    margin: 130px 25px 40px 25px;
-    border-color: #4d718161;
-}
-.cartas-equipo{
-    background-color:  #97deff70;
-    border-color: #4d718161;
-    color: white;
-    padding: 0;
-    margin-top: 35px;
-    height: 450px;
-}
-.cartas-equipo:hover{
-    background-color: #97deff;
-    border-color: #4d718161;
-    color: white;
-    padding: 0;
-    margin-top: 35px;
-    height: 450px;
-}
-/*LOGROS*/
-.titulo-logros{
-    margin: 130px 25px 40px 20px;
-    background-color: #97DEFF;
-    color: white;
-    font-size: 20px;
-}
-.iframe-logros{
-    padding: 10px;
-}
-.cartas-logros{
-    margin:40px 20px;
-    background-color: #97DEFF;
-    color: white;
-    font-size: 20px;
-}
-/*CONTACTO*/
-.carta-form{
-    margin: 130px 100px 40px 100px;
-    background-color: #97DEFF;
-    color: white;
-}
-.boton-form{
-    background-color:  #97deff70;
-    color: white;
-    border-color: #4d718161;
-}
-.boton-form:hover{
-    background-color:white;
-    color:#97deff;
-    border-color: #4d718161;
-}
-/*MEDIA QUERIES*/
-@media (min-width:400px) and (max-width:1000px){
-    .titulo-index{
-        font-size: 100px;
-    }
-    .mapa-refencias{
-        display: none;
-    }
-    .card-iframe{
-        margin: 40px;
-    }
-    .main-index{
-        height: 660px;
-    }
-    .img-nav{
-        display: none;
-    }
+* a {
+  text-decoration: none;
 }
 
+.navbar-mio {
+  background-color: #97DEFF;
+  border-bottom: 2px solid rgba(77, 113, 129, 0.3803921569);
+}
+.navbar-mio div a h2 {
+  color: white;
+  font-size: 56px;
+  margin-right: 10px;
+  margin-top: 9px;
+}
+
+.links-nav {
+  font-size: 20px;
+}
+
+.main-index {
+  background-image: url(/imagenes/fondoindexx.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo-index {
+  font-family: "Lalezar", cursive;
+  margin-bottom: 200px;
+  font-size: 190px;
+  color: rgba(255, 255, 255, 0.575);
+  padding: 25px;
+}
+
+.boton-donar {
+  color: black;
+  background-color: rgba(151, 222, 255, 0.2);
+  border-color: rgba(151, 222, 255, 0.2);
+}
+.boton-donar:hover {
+  color: black;
+  border-color: #97DEFF;
+  background-color: #97DEFF;
+  transform: scale(1.1);
+  transition: all 1.8s;
+}
+
+.frase-inicio {
+  border-radius: 30px;
+  background: rgb(151, 222, 255);
+  background: -moz-linear-gradient(90deg, rgb(151, 222, 255) 20%, rgba(255, 255, 255, 0.3841911765) 50%, rgb(151, 222, 255) 80%);
+  background: -webkit-linear-gradient(90deg, rgb(151, 222, 255) 20%, rgba(255, 255, 255, 0.3841911765) 50%, rgb(151, 222, 255) 80%);
+  background: linear-gradient(90deg, rgb(151, 222, 255) 20%, rgba(255, 255, 255, 0.3841911765) 50%, rgb(151, 222, 255) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#97deff",endColorstr="#97deff",GradientType=1);
+  color: black;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.row-introduccion {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.header-intro {
+  background-color: transparent;
+}
+
+.row-mio {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.div-logros, .div-equipo {
+  margin-top: 120px;
+}
+
+.titulo-equipo-index, .titulo-logros-index {
+  margin-bottom: 20px;
+  border: solid 4px #97DEFF;
+  background: rgb(151, 222, 255);
+  background: -webkit-linear-gradient(90deg, rgba(151, 222, 255, 0) 50%, rgb(151, 222, 255) 100%);
+  background: linear-gradient(90deg, rgba(151, 222, 255, 0) 50%, rgb(151, 222, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#97deff",endColorstr="#97deff",GradientType=1);
+  background: -moz-linear-gradient(90deg, rgba(151, 222, 255, 0) 50%, rgb(151, 222, 255) 100%);
+}
+.titulo-equipo-index h3, .titulo-logros-index h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Lalezar", cursive;
+}
+
+.card-mio {
+  margin-top: 20px;
+}
+
+.tarjetas-mio {
+  background-color: #97DEFF;
+  height: 150px;
+}
+.tarjetas-mio h5 {
+  color: black;
+  font-family: "Lalezar", cursive;
+}
+
+footer {
+  background: rgb(151, 222, 255);
+  background: -moz-linear-gradient(90deg, rgba(151, 222, 255, 0) 0%, rgb(151, 222, 255) 70%);
+  background: -webkit-linear-gradient(90deg, rgba(151, 222, 255, 0) 0%, rgb(151, 222, 255) 70%);
+  background: linear-gradient(90deg, rgba(151, 222, 255, 0) 0%, rgb(151, 222, 255) 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#97deff",endColorstr="#97deff",GradientType=1);
+  color: black;
+  font-size: 20px;
+}
+footer div ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.links-footer {
+  margin-top: 40px;
+}
+
+.links-redes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.links-complementarios {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 17px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+
+.iframe-mapa {
+  margin-top: 35px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div-info {
+  margin-top: 130px;
+}
+
+.iframe-info {
+  margin-top: 50px;
+}
+
+.texto-info {
+  padding: 20px;
+  font-size: 18px;
+  color: black;
+  background-color: #97DEFF;
+}
+
+.div-botones {
+  margin-bottom: 15px;
+  margin-top: 130px;
+  border: solid 2px rgba(77, 113, 129, 0.3803921569);
+  background-color: rgba(151, 222, 255, 0.5254901961);
+}
+
+.header-info {
+  background-color: transparent;
+  font-size: 40px;
+}
+
+.botones-info {
+  background-color: rgba(151, 222, 255, 0.7450980392);
+  border-color: rgba(77, 113, 129, 0.3803921569);
+  color: black;
+  font-size: 20px;
+}
+
+.botones-info:hover {
+  background-color: #97DEFF;
+  border-color: rgba(77, 113, 129, 0.3803921569);
+  color: black;
+  font-size: 20px;
+}
+
+.texto-carta {
+  background-color: rgba(151, 222, 255, 0.7450980392);
+  color: black;
+  font-size: 20px;
+}
+
+.card-iframe {
+  margin: 110px;
+  background-color: #97DEFF;
+}
+.card-iframe div .div-iframe-info {
+  padding: 20px;
+  color: black;
+}
+.card-iframe div .div-iframe-info p {
+  font-size: 20px;
+}
+
+.row-equipo {
+  margin: 0px;
+}
+
+.card-equipo {
+  margin: 130px 25px 40px 25px;
+  border-color: rgba(77, 113, 129, 0.3803921569);
+  background: rgb(151, 222, 255);
+  background: -moz-radial-gradient(circle, rgba(151, 222, 255, 0) 50%, rgb(151, 222, 255) 90%);
+  background: -webkit-radial-gradient(circle, rgba(151, 222, 255, 0) 50%, rgb(151, 222, 255) 90%);
+  background: radial-gradient(circle, rgba(151, 222, 255, 0) 50%, rgb(151, 222, 255) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#97deff",endColorstr="#97deff",GradientType=1);
+}
+
+.iframe-logros {
+  padding: 10px;
+}
+
+.boton-form {
+  background-color: rgba(151, 222, 255, 0.4392156863);
+  color: black;
+  border-color: rgba(77, 113, 129, 0.3803921569);
+}
+.boton-form:hover {
+  background-color: white;
+  color: black;
+  border-color: rgba(77, 113, 129, 0.3803921569);
+}
+
+@media (min-width: 300px) and (max-width: 1000px) {
+  .titulo-index {
+    font-size: 100px;
+  }
+  .mapa-refencias {
+    display: none;
+  }
+  .card-iframe {
+    margin: 40px;
+  }
+  .main-index {
+    height: 660px;
+  }
+  .img-nav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
