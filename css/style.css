@@ -375,9 +375,6 @@ footer div ul li a {
     text-align: center;
     font-size: 14px;
   }
-  .iframe-logros, .cartas-logros {
-    display: none;
-  }
   .crt-equipo {
     padding: 5px;
     font-size: 17px;
@@ -412,6 +409,11 @@ footer div ul li a {
   }
   .carta-form {
     margin: 130px 30px 40px 30px;
+  }
+}
+@media (max-width: 325px) {
+  .iframe-logros, .cartas-logros {
+    display: none;
   }
 }
 
