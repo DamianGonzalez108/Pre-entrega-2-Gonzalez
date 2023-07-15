@@ -8,6 +8,7 @@ footer{
     font-size: $px-size;
     div{
         ul{
+            padding: 0;
             li{
                 a{
                 text-decoration: none;
@@ -27,10 +28,12 @@ footer{
 }
 .links-complementarios{
     display:$flx;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     font-size: 17px;
-    margin-left: 200px;
     margin-bottom: 10px;
+    li{
+       margin-left: 30px;
+    }
 }
 .iframe-mapa{
     margin-top: 35px;

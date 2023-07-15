@@ -67,63 +67,62 @@
         <div class="card carta-form">
             <div class="card-body">
                 <div class="titulo-form text-center">
-                    <h2>TITULO</h2>
-                    <p>Texto sobre contacto</p>
+                    <h2>CONTACTANOS </h2>
+                    <p>Ingresa tus datos</p>
                 </div>
                 <!--FORM-->
-                <h3>NOMBRE COMPLETO</h3>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Example label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput"
-                        placeholder="Example input placeholder">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Another label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2"
-                        placeholder="Another input placeholder">
-                </div>
-                <h3>DIRECCION</h3>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Example label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput"
-                        placeholder="Example input placeholder">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Another label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2"
-                        placeholder="Another input placeholder">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Example label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput"
-                        placeholder="Example input placeholder">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Another label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2"
-                        placeholder="Another input placeholder">
-                </div>
-                <h3>CONTACTO</h3>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Example label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput"
-                        placeholder="Example input placeholder">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Another label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2"
-                        placeholder="Another input placeholder">
-                </div>
-                <h3>COMENTARIOS</h3>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Example label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput"
-                        placeholder="Example input placeholder">
-                </div>
-                <div class="div-boton-form text-center">
-                    <button type="button" class="btn boton-form">ENVIAR</button>
-                </div>
-
+                <form action="documente.php" method="get">
+                    <h3>NOMBRE COMPLETO</h3>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label" name="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Ingrese su nombre" required name="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellido" class="form-label" name="apellido">Apellido</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Ingrese su apellido" required name="apellido">
+                    </div>
+                    <h3>DIRECCION</h3>
+                    <div class="mb-3">
+                        <label for="pais" class="form-label" name="pais">Pais</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Ingrese su pais de origen" name="pais">
+                    </div>
+                    <div class="mb-3">
+                        <label for="ciudad" class="form-label" name="ciudad">Ciudad</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Ingrese una ciudad" name="ciudad">
+                    </div>
+                    <div class="mb-3">
+                        <label for="calle" class="form-label" name="calle">Calle</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Ingrese la calle de su domicilio" name="calle">
+                    </div>
+                    <div class="mb-3">
+                        <label for="numero" class="form-label" name="numero">Numero</label>
+                        <input type="number" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Ingrese un numero de calle" name="numero">
+                    </div>
+                    <h3>CONTACTO</h3>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="formGroupExampleInput"
+                            placeholder="Ingrese su E-mail" required name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label" name="telefono">Telefono</label>
+                        <input type="number" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Ingrese un numero de telefono" required name="telefono">
+                    </div>
+                    <h3>COMENTARIOS</h3>
+                    <div class="mb-3">
+                        <textarea name="comentario" id="comentario" class="form-control" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="div-boton-form text-center">
+                        <input type="submit" class="btn boton-form" value="ENVIAR">
+                    </div>
+                </form>
             </div>
         </div>
     </main>
